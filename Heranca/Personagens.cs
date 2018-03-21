@@ -3,6 +3,7 @@ namespace Heranca
 {
     public class Personagens
     {
+        //Atributos de todos os personagens
         public double Forca {get; set;}
         public double Destreza {get; set;}
         public double Habilidade {get; set;}
@@ -10,9 +11,12 @@ namespace Heranca
 
         public double Vitalidade {get; set;}
 
+//Método para contabilizar o dano
         public void ControleDeDano(Personagens nomePersonagem, double dano ){
             nomePersonagem.Vitalidade -= dano;
         }
+
+//Métdo para imprimir a ficha dos personagens        
 
             public void ImprimirSttus(){
             Console.WriteLine("Força " + Forca);

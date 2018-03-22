@@ -6,14 +6,43 @@ namespace HerancaApostilaK19
     {
         static void Main(string[] args)
         {
-            Console.WriteLine("Exemplo de Código 01 ");
+  Gerente g = new Gerente();
+g.Nome = "Rafael Cosentino";
+g.Salario = 2000;
+g.Usuario = "rafael.cosentino";
+g.Senha =  "12345";
 
-            Emprestimo e = new Emprestimo();
 
-            // SeguroDeVeiculos sdv = new SeguroDeVeiculos();
 
-            // Console.WriteLine("Emprestimo: " + e.CalculaTaxa());
-            // Console.WriteLine("Seguro de Veiculo: " + sdv.CalculaTaxa());
+Telefonista t = new Telefonista();
+t.Nome = "Carolina Mello";
+t.Salario = 1000;
+t.EstacaoDeTrabalho = 13;
+
+Secretario s = new Secretario();
+s.Nome = "Tatiane Andrade";
+s.Salario = 1500;
+s.Ramal = 198;
+
+Console.WriteLine("GERENTE");
+Console.WriteLine("Nome: " + g.Nome);
+Console.WriteLine("Salário: " + g.Salario);
+Console.WriteLine("Usuário: " + g.Usuario);
+Console.WriteLine("Senha: " + g.Senha);
+Console.WriteLine("Bonificação: " + g.CalculaBonificacao());
+Console.WriteLine("TELEFONISTA");
+Console.WriteLine("Nome: " + t.Nome);
+Console.WriteLine("Salário: " + t.Salario);
+Console.WriteLine("Estacao de trabalho: " + t.EstacaoDeTrabalho);
+Console.WriteLine("Bonificação: " + t.CalculaBonificacao());
+
+Console.WriteLine("SECRETARIA");
+Console.WriteLine("Nome: " + s.Nome);
+Console.WriteLine("Salário: " + s.Salario);
+Console.WriteLine("Ramal: " + s.Ramal);
+Console.WriteLine("Bonificação: " + s.CalculaBonificacao());
+
+
         }
     }
 }

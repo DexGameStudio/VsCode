@@ -1,6 +1,6 @@
 namespace HerancaApostilaK19
 {
-    public class Telefonista
+    public class Telefonista: Funcionario
     {
         public int EstacaoDeTrabalho{get;set;}
     }

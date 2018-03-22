@@ -15,20 +15,21 @@ namespace Heranca
             auxiliar esse processo. E uma maneira de fazer isso é com a
             HERANÇA. 
 
-            No Exemplo avaixo teremos um combate entre um mago e um guerreiro
+            No Exemplo abaixo teremos um combate entre um mago e um guerreiro
             no nosso código exemplo.
 
             Ainda sobre reaproveitamento de código, vamos nos abstrair um pouco 
             sobre a criação de uma ficha de status de personagens e sobre as 
             particularidades entre esses dois aventureiros.
 
-            em um hipotético jogo temos o nosso personagem, este, possui força, 
+            Em um hipotético jogo temos o nosso personagem, este, possui força, 
             destreza, habilidade - necessária para  desferir golpes corpo a corpo, 
-            poder mágico - necessário para desferir golpes mágico, vitalidades, entre outros.
+            poder mágico - necessário para desferir golpes mágico, vitalidade, entre outros.
             Além destas, existem as chamadas habilidades individuais, ou "poderes", 
             não vemos um guerreiro soltanto uma bola de fogo, correto? Usando orientação 
             a objeto podemos dizer que  Guerreiro e Mago são um tipo de personagens (Classe) e 
-            que além daqueles atributos e métodos  
+            que além daqueles atributos e métodos que todo personagem possui, eles tem as suas habilidades
+            individuais (Poderes).  
             
              */
 
@@ -55,8 +56,8 @@ namespace Heranca
             hakan.InvestidaMatadora = 9;
 
             /*
-            Para realizar um ataque são necessário 2 passo:
-            1° Fazemo o cálculo do dano
+            Para realizar um ataque são necessários 2 passos:
+            1° Fazemos o cálculo do dano
             2° Enviamos o Dano para o personagem
              */
 

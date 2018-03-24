@@ -64,9 +64,35 @@ namespace Object
         repositorio.Adicionar(p2,1);
 
         Console.WriteLine(repositorio.Pega(1));
-        
-    
 
+        Console.WriteLine();
+        
+     
+
+        
+        //EXERCÍCIOS  DE FIXAÇÃO PÁG 129
+
+        Funcionario f = new Funcionario();
+        f.Nome = "Jonas Hirata";
+        f.Salario = 30000;
+
+        Console.WriteLine(f);
+
+
+        //EXERCÍCIOS  DE FIXAÇÃO PÁG 130
+                Console.WriteLine();
+
+                Funcionario f1 = new Funcionario();
+                f1.Nome = "Jonas Hirata";
+                f1.Salario = 3000;
+
+                Funcionario f2 = new Funcionario();
+
+                f2.Nome = "Jonas Hirata";
+                f2.Salario = 5000;
+
+                Console.WriteLine("f1 == f2");
+                Console.WriteLine(f1.Equals(f2));
 
         }
     }

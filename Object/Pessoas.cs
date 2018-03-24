@@ -11,5 +11,9 @@ namespace Object
             this.Idade += idade;
         }
 
+        public override string ToString(){
+            return "Nome: " + this.Nome + " Idade: " + this.Idade;
+        }
+
     }
 }

@@ -43,8 +43,23 @@ namespace ClasseAbstrata
         static void Main(string[] args)
         {
 
-            Console.WriteLine("Teste de Classes e Métodos Abstratos");
-            
+            //Console.WriteLine("Teste de Classes e Métodos Abstratos");
+
+         Console.WriteLine("Teste de Interface");
+
+
+        Corrente c1 = new Corrente();
+        Poupanca p1 = new Poupanca();
+
+        c1.Deposita(500);
+        p1.Deposita(500);
+
+        c1.Saca(100);
+        p1.Saca(100);
+
+        Console.WriteLine(c1.Saldo);
+        Console.WriteLine(p1.Saldo);
+
         }
     }
 }

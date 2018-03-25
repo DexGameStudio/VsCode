@@ -89,7 +89,7 @@ namespace Object
                 Funcionario f2 = new Funcionario();
 
                 f2.Nome = "Jonas Hirata";
-                f2.Salario = 5000;
+                f2.Salario = 3000;
 
                 Console.WriteLine("f1 == f2");
                 Console.WriteLine(f1.Equals(f2));

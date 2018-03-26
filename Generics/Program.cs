@@ -18,7 +18,7 @@ namespace Generics
         LinkedList<int> linkedList = new LinkedList<int>();
 
         tempo = Program.AdicionaNoFinal(linkedList);
-        Console.WriteLine("ArrayList: " + tempo + " ms");
+        Console.WriteLine("LinkedList: " + tempo + " ms");
            
         }
 

@@ -15,6 +15,8 @@ namespace Matriz
 
             Console.WriteLine(matiz2x2[1,1]);
 
+            Console.WriteLine("+++++++++++++++++++++++++++++++");
+
             // Alimentando matriz com o laço FOR
 
             int[,] matizFOR = new int[2,2];
